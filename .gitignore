@@ -1,0 +1,6 @@
+k8s_secrets.sh
+node_modules
+.idea
+*.iml
+.DS_Store
+client/.next
