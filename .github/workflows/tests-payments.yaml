@@ -1,4 +1,4 @@
-name: tests-paymebts
+name: tests-payments
 
 on:
   pull_request
@@ -8,4 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: cd payments && npm install && npm run test:ci
+      - run: cd payments
+      - run: npm install
+      - run: ls node_modules
+      - run: pm run test:ci
