@@ -25,7 +25,7 @@ const Signin = () => {
     <form onSubmit={onSubmit}>
       <h1>Sign In</h1>
       <div className="form-group">
-        <label>Email Address</label>
+        <label>Your Email Address</label>
         <input
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -33,7 +33,7 @@ const Signin = () => {
         />
       </div>
       <div className="form-group">
-        <label>Password</label>
+        <label>Your Password</label>
         <input
           value={password}
           onChange={(e) => setPassword(e.target.value)}
